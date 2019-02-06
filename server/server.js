@@ -29,7 +29,7 @@ require('./routers/index')(app, server);
 const port = process.env.PORT || localConfig.port;
 server.listen(port, function(){
   logger.info(`Another message to check 2`);
-  logger.info(`julie IS listening on http://localhost:${port}/appmetrics-dash`);
+  logger.info(`BLAH IS listening on http://localhost:${port}/appmetrics-dash`);
   logger.info(`toby is not listening on http://localhost:${port}`);
 });
 
